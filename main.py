@@ -10,7 +10,17 @@ import pyttsx3
 
 import os
 
-bot = ChatBot("Lisa")
+logics = ["chatterbot.logic.TimeLogicAdapter"]
+
+bot = ChatBot(
+  'Lisa',
+  storage_adapter='chatterbot.storage.SQLStorageAdapter',
+  logic_adapters=[
+    'chatterbot.logic.MathematicalEvaluation',
+    'chatterbot.logic.TimeLogicAdapter',
+    'chatterbot.logic.BestMatch'
+    ]
+)
 
 trainer = ListTrainer(bot)
 
