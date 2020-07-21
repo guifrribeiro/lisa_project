@@ -1,9 +1,4 @@
 # Lisa Project
-The Lisa project is a virtual assistant designed to automate a company's public service.
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 The Lisa Project is a back end for a virtual assistant desigend to automate a company's public service.
 
