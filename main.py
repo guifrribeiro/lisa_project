@@ -14,12 +14,7 @@ logics = ["chatterbot.logic.TimeLogicAdapter"]
 
 bot = ChatBot(
   'Lisa',
-  storage_adapter='chatterbot.storage.SQLStorageAdapter',
-  logic_adapters=[
-    'chatterbot.logic.MathematicalEvaluation',
-    'chatterbot.logic.TimeLogicAdapter',
-    'chatterbot.logic.BestMatch'
-    ]
+  storage_adapter='chatterbot.storage.SQLStorageAdapter'
 )
 
 trainer = ListTrainer(bot)
